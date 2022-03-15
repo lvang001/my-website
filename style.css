@@ -1,0 +1,28 @@
+.container {
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+}
+.title {
+    text-align: center;
+    font-family: Sofia;
+    background-color: lightblue;
+}
+.links {
+    font-family: 'Dancing Script', cursive;
+    color: blueviolet;
+    background-color: aqua;
+    animation-name: example;
+    animation-duration:5s;
+}
+
+@keyframes example {
+    from {background-color:rgb(255, 251, 0); }
+    to {background-color: rgb(43, 198, 226); }
+}
+.quote {
+    font-family: 'Dancing Script', cursive;
+}
